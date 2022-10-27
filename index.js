@@ -1,9 +1,9 @@
-let btn = document.querySelector('#new-quote');
+let btn = document.querySelector('#btn');
 
 let quote = document.querySelector('.quote');
 let person = document.querySelector('.person');
 
-btn.addEventListener('DOMContentLoaded','click',function(){
+btn.addEventListener('click',()=>{
 
     let random = Math.floor(Math.random() * quotes.length);
     
